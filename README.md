@@ -9,3 +9,6 @@ Une fois les données chargées, l'interface doit permettre une analyse explorat
 Différents jeux de données sont recommandés pour l'étude, tels que Dermatology, Statlog-Heart, Hepatitis, Breast Cancer Wisconsin, Cardiotocography, Mice Protein Expression, Acute Inflammations, Mammographic Mass, et Arcene.
 
 Le projet doit être réalisé en binôme ou en trinôme, avec une soumission du lien URL de l'application RShiny via Slack avant la date limite. Les résultats doivent être commentés en utilisant les connaissances acquises en Programmation Web et en Data Science.
+
+
+![App Screenshot](img/Picture1.png)
