@@ -51,5 +51,3 @@ Check out the live application [here](https://mohamed-elayeb.shinyapps.io/Projet
 Contributions are welcome. Please fork the repository and create a pull request to contribute to the project.
 
 ---
-
-For more details, you can visit the project [repository on GitHub](https://github.com/mohamed-ayeb-97/Exploration_de_donnees_et_apprentissage_de_modeles_supervises_RShiny)【20†source】.
