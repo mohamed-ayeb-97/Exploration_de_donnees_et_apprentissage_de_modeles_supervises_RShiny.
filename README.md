@@ -1,14 +1,55 @@
-# Exploration_de_donnees_et_apprentissage_de_modeles_supervises_RShiny.
+## Exploration and Supervised Learning Models with RShiny
 
-Projet Programmation Web - Exploration de données et apprentissage de modèles supervisés avec RShiny.
+### Overview
 
-Le projet consiste à développer une interface web capable de charger et d'analyser différents jeux de données. L'interface doit prendre en compte le type de variables, le nombre de catégories pour les variables qualitatives, la présence d'outliers, les valeurs manquantes, la normalisation, la dummification et le déséquilibre des classes.
+This project is an interactive web application developed using Shiny, designed for data exploration and the application of supervised learning models. The application facilitates the loading and analysis of various datasets, offering a user-friendly interface for both data preprocessing and model evaluation.
 
-Une fois les données chargées, l'interface doit permettre une analyse exploratoire unidimensionnelle et bidimensionnelle des variables. Trois modèles de classification supervisée doivent être sélectionnés et entraînés sur les données, avec évaluation des performances (précision, rappel, F-score, courbe ROC, AUC). Les résultats des modèles, y compris les features les plus importants, doivent être affichés dans l'interface.
+### Features
 
-Différents jeux de données sont recommandés pour l'étude, tels que Dermatology, Statlog-Heart, Hepatitis, Breast Cancer Wisconsin, Cardiotocography, Mice Protein Expression, Acute Inflammations, Mammographic Mass, et Arcene.
+- **Data Preprocessing**: Imputation, normalization, dummification, and handling class imbalance.
+- **Exploratory Data Analysis (EDA)**: Univariate, bivariate, and multivariate analysis with visualization tools.
+- **Model Training and Evaluation**: Supports multiple supervised learning algorithms with performance metrics like accuracy, recall, F-score, ROC curves, and AUC.
+- **Interactive Interface**: Users can upload their own datasets for analysis and model training.
 
-Le projet doit être réalisé en binôme ou en trinôme, avec une soumission du lien URL de l'application RShiny via Slack avant la date limite. Les résultats doivent être commentés en utilisant les connaissances acquises en Programmation Web et en Data Science.
+### Usage
 
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/mohamed-ayeb-97/Exploration_de_donnees_et_apprentissage_de_modeles_supervises_RShiny.git
+   ```
 
-![App Screenshot](img/Picture1.png)
+2. **Install Required Packages**:
+   ```r
+   install.packages(c("shiny", "ggplot2", "dplyr", "caret", "randomForest"))
+   ```
+
+3. **Run the Application**:
+   ```r
+   library(shiny)
+   runApp("path_to_your_cloned_repo")
+   ```
+
+### Getting Started
+
+The application guides users through the following steps:
+
+1. **Data Loading**: Upload a dataset in CSV format.
+2. **Data Exploration**: Perform EDA with various visualization options.
+3. **Model Training**: Select and train supervised learning models (e.g., logistic regression, decision trees, random forests).
+4. **Model Evaluation**: View performance metrics and visualize important features.
+
+### Example Datasets
+
+The application is designed to work with several recommended datasets such as Dermatology, Statlog-Heart, Hepatitis, Breast Cancer Wisconsin, and more.
+
+### Live Demo
+
+Check out the live application [here](https://mohamed-elayeb.shinyapps.io/Projet_Prog_Web/).
+
+### Contributions
+
+Contributions are welcome. Please fork the repository and create a pull request to contribute to the project.
+
+---
+
+For more details, you can visit the project [repository on GitHub](https://github.com/mohamed-ayeb-97/Exploration_de_donnees_et_apprentissage_de_modeles_supervises_RShiny)【20†source】.
